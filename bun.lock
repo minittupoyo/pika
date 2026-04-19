@@ -27,6 +27,7 @@
       "devDependencies": {
         "@iconify-json/lucide": "^1.2.102",
         "@iconify-json/tabler": "^1.2.33",
+        "@iconify-json/vscode-icons": "^1.2.45",
         "eslint-plugin-tailwindcss": "^3.18.3",
         "prettier": "^3.8.3",
         "prettier-plugin-tailwind": "^2.2.12",
@@ -227,6 +228,8 @@
     "@iconify-json/lucide": ["@iconify-json/lucide@1.2.102", "", { "dependencies": { "@iconify/types": "*" } }, "sha512-Dm3EEqu5NrmzyDMB2U1+8yroEj2/dB9V4KlH0m/szwwF/ofSf0cPaGTZqkd1aExXjCor+vU53ttRMCGuXf+/cg=="],
 
     "@iconify-json/tabler": ["@iconify-json/tabler@1.2.33", "", { "dependencies": { "@iconify/types": "*" } }, "sha512-q9nUQfE/cjIrGh5bAKHTphitAZpT0kX9SxDgZo3Sx8ofeDTsaHVdRwrn+CfKiJ5vQ1b1btqVwizXzIgz9KEPjA=="],
+
+    "@iconify-json/vscode-icons": ["@iconify-json/vscode-icons@1.2.45", "", { "dependencies": { "@iconify/types": "*" } }, "sha512-ow+ueibMIq79ueM1kv6cOWgHx8jfh1XJQi2RrqMHb4HLbvIBlxpy5PCMvOJXlA68R6fBAHpWQeh6uWx7VKEVsA=="],
 
     "@iconify/collections": ["@iconify/collections@1.0.674", "", { "dependencies": { "@iconify/types": "*" } }, "sha512-YLEpD2DufdlvG6keWnfyBL+FrIOxm2+2aypAVns9vZCBMvWSU4dn/gQEz9CV7k5QPM1uE9OQqfHAaBMR+kf1kg=="],
 

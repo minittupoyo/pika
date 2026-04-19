@@ -32,6 +32,7 @@
   "devDependencies": {
     "@iconify-json/lucide": "^1.2.102",
     "@iconify-json/tabler": "^1.2.33",
+    "@iconify-json/vscode-icons": "^1.2.45",
     "eslint-plugin-tailwindcss": "^3.18.3",
     "prettier": "^3.8.3",
     "prettier-plugin-tailwind": "^2.2.12"
