@@ -1,0 +1,12 @@
+{
+    "$schema": "./node_modules/wrangler/config-schema.json",
+    "name": "pika-nuxt",
+    "compatibility_date": "2026-4-20",
+    "assets": {
+        "directory": ".output/public"
+    },
+    "route": {
+        "pattern": "pika.minittu.net",
+        "custom_domain": true
+    }
+}

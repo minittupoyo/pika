@@ -1,0 +1,62 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@theme {
+    --default-font-family: 'Geist', 'Noto Sans JP', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+}
+
+@layer components {
+    .remark-link-card-plus__container {
+        @apply my-8 block;
+
+        img {
+            @apply m-0!;
+        }
+    }
+
+    .remark-link-card-plus__container a.remark-link-card-plus__card {
+        @apply flex flex-col-reverse sm:flex-row border! border-muted! rounded-lg border-solid overflow-hidden hover:border-primary! transition-all! duration-200! text-default h-auto sm:h-[126px] bg-default font-normal;
+        text-decoration: none !important;
+    }
+
+    .remark-link-card-plus__main {
+        @apply flex flex-col justify-between p-4 flex-1 min-w-0;
+    }
+
+    .remark-link-card-plus__content {
+        @apply flex flex-col;
+    }
+
+    .remark-link-card-plus__title {
+        @apply font-bold text-sm sm:text-base text-default line-clamp-1 mt-0 mb-1 leading-tight;
+    }
+
+    .remark-link-card-plus__description {
+        @apply text-xs sm:text-sm text-muted line-clamp-2 m-0 leading-snug;
+    }
+
+    .remark-link-card-plus__meta {
+        @apply flex items-center gap-2 mt-2;
+    }
+
+    .remark-link-card-plus__favicon {
+        @apply w-4! h-4! object-contain;
+    }
+
+    .remark-link-card-plus__url {
+        @apply text-xs text-dimmed truncate m-0;
+    }
+
+    .remark-link-card-plus__thumbnail {
+        @apply block w-full sm:w-60 shrink-0 border-b sm:border-b-0 sm:border-l border-muted border-solid;
+    }
+
+    .remark-link-card-plus__image {
+        @apply w-full h-full rounded-none! object-cover aspect-[1.91/1] sm:aspect-auto;
+    }
+}
