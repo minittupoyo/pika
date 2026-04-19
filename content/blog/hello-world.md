@@ -2,7 +2,7 @@
 title: こんにちは、世界。
 description: ハローワールド!
 emoji: 👋
-date: 2026-04-19T18:53:36.044Z
+date: 2026-04-19T18:53
 draft: false
 ---
 
