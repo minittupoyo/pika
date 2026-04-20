@@ -32,17 +32,18 @@ export default defineNuxtConfig({
     families: [
       {
         name: "Geist",
-        provider: "google",
+        provider: "fontsource",
         global: true,
         preload: true,
-        weights: [400,500,700]
+        weights: [400, 500, 700]
       },
       {
         name: "Noto Sans JP",
-        provider: "google",
+        provider: "fontsource",
         global: true,
         preload: true,
-        weight: "100 900"
+        weight: "100 900",
+        subsets: ["latin", "japanese"]
       },
       {
         name: "Noto Sans JP OG",
@@ -55,6 +56,13 @@ export default defineNuxtConfig({
         name: "Noto Sans JP OG",
         src: "/fonts/NotoSansJP-Medium.ttf",
         weight: 500,
+        global: true,
+        preload: true
+      },
+      {
+        name: "Noto Sans JP OG",
+        src: "/fonts/NotoSansJP-Regular.ttf",
+        weight: 400,
         global: true,
         preload: true
       }
@@ -75,6 +83,8 @@ export default defineNuxtConfig({
     }
   },
   ogImage: {
-    zeroRuntime: true
+    zeroRuntime: true,
+    buildCache: false,
+    fontSubsets: ["latin","japanese","japanese-ext"]
   }
 })

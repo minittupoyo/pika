@@ -2,7 +2,7 @@
 @import "@nuxt/ui";
 
 @theme {
-    --default-font-family: 'Geist', 'Noto Sans JP', sans-serif;
+    --font-sans: 'Geist', 'Noto Sans JP', sans-serif;
 }
 
 html {

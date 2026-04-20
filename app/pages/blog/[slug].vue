@@ -11,7 +11,7 @@ const { data: post } = await useAsyncData(route.path, () => {
     return query.path(route.path).first()
 })
 
-defineOgImage("BlogOg.takumi", { title: post.value?.title, description: post.value?.description }, { fonts: ["Noto+Sans+JP+OG"] })
+defineOgImage("BlogOg.satori", { title: post.value?.title, description: post.value?.description })
 
 useSeoMeta({
     title: `${post.value?.title} | pika`,

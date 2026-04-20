@@ -16,12 +16,12 @@ const links = ref<ButtonProps[]>([
     }
 ])
 
+defineOgImage("BlogOg.satori", { title: "pika", description: "Nuxtの勉強のために作ったブログ" })
+
 useSeoMeta({
     title: "pika",
     description: "Nuxtの勉強のために作ったブログ"
 })
-
-defineOgImage("BlogOg.takumi", { title: "pika", description: "Nuxtの勉強のために作ったブログ" }, { fonts: ["Noto+Sans+JP+OG"] })
 </script>
 
 <template>
