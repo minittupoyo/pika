@@ -10,10 +10,17 @@ const { data: blog } = await useAsyncData(() => {
 
 const links = ref<ButtonProps[]>([
     {
-        label: "メインブログ",
-        to: "https://blog.minittu.net/",
-        icon: 'i-tabler-brand-astro'
-    }
+        label: "GitHub",
+        to: "https://github.com/minittupoyo",
+        icon: 'i-tabler-brand-github'
+    },
+    {
+        label: "ソースコード",
+        to: "https://github.com/minittupoyo/pika",
+        icon: 'i-tabler-code',
+        color: 'neutral',
+        variant: 'ghost'
+    },
 ])
 
 defineOgImage("BlogOg.satori", { title: "pika", description: "Nuxtの勉強のために作ったブログ" })
@@ -26,7 +33,7 @@ useSeoMeta({
 
 <template>
     <UPage>
-        <UPageHero title="pika" description="Nuxtで作っているブログです。" headline="NuxtUI勉強中" :links="links">
+        <UPageHero title="minittu" description="超個人用備忘録" headline="ねこ、かわいいね。" :links="links">
         </UPageHero>
         <UPageBody>
             <UContainer class="flex flex-row items-center justify-between">

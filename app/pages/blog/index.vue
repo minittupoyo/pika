@@ -34,6 +34,9 @@ const breadcrumb = ref<BreadcrumbItem[]>([
                 <template #headline>
                     <UBreadcrumb :items="breadcrumb" class="mb-4" />
                 </template>
+                <p v-if="posts" class="text-muted flex flex-row items-center gap-1">
+                    {{ posts.length }} 件の記事があります
+                </p>
             </UPageHeader>
             <UPageBody>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4">

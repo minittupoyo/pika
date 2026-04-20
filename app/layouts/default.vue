@@ -19,6 +19,10 @@ const items: NavigationMenuItem[] = [
         to: "/",
     },
     {
+        label: "About",
+        to: "/about",
+    },
+    {
         label: "Blog",
         to: "/blog",
     },
@@ -26,7 +30,7 @@ const items: NavigationMenuItem[] = [
 </script>
 
 <template>
-    <UHeader title="pika" to="/" mode="modal">
+    <UHeader title="minittu" to="/" mode="modal">
         <UNavigationMenu variant="link" :items="items" />
         <template #right>
             <UColorModeButton />
@@ -42,13 +46,13 @@ const items: NavigationMenuItem[] = [
     <UFooter>
         <template #left>
             <p class="text-muted text-sm">
-                &copy; {{ new Date().getFullYear() }} pika by minittu.
+                &copy; {{ new Date().getFullYear() }} minittu.
             </p>
         </template>
         <UNavigationMenu :items="items" variant="link" />
         <template #right>
             <UButton icon="i-tabler-brand-github" to="https://github.com/minittupoyo" color="neutral" target="_blank" variant="ghost" />
-            <UButton icon="i-tabler-brand-astro" to="https://blog.minittu.net" color="neutral" target="_blank" variant="ghost" />
+            <UButton icon="i-tabler-code" to="https://github.com/minittupoyo/pika" color="neutral" target="_blank" variant="ghost" />
         </template>
     </UFooter>
 </template>

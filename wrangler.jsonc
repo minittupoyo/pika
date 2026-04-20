@@ -6,7 +6,7 @@
         "directory": ".output/public"
     },
     "route": {
-        "pattern": "pika.minittu.net",
+        "pattern": "blog.minittu.net",
         "custom_domain": true
     }
 }

@@ -14,6 +14,14 @@ export default defineContentConfig({
                 date: z.coerce.date(),
                 draft: z.boolean().default(false)
             })
+        }),
+        page: defineCollection({
+            type: "page",
+            source: "page/**/*.md",
+            schema: z.object({
+                title: z.string(),
+                description: z.string()
+            })
         })
     }
 })

@@ -11,6 +11,16 @@ const { data: post } = await useAsyncData(route.path, () => {
     return query.path(route.path).first()
 })
 
+const { data: surround } = await useAsyncData(`${route.path}-surround`, () => {
+    let query = queryCollectionItemSurroundings("blog", route.path, {
+        fields: ['title','description','date']
+    })
+    if (import.meta.env.PROD) {
+        query.where("draft","<>",true)
+    }
+    return query
+})
+
 defineOgImage("BlogOg.satori", { title: post.value?.title, description: post.value?.description })
 
 useSeoMeta({
@@ -50,6 +60,8 @@ const breadcrumb = ref<BreadcrumbItem[]>([
             </UPageHeader>
             <UPageBody>
                 <ContentRenderer v-if="post" :value="post" />
+                <USeparator v-if="surround?.filter(Boolean).length" />
+                <UContentSurround :surround="surround as any" />
             </UPageBody>
             <template #right>
                 <UPageAside>
