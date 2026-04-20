@@ -9,7 +9,7 @@ const { data: posts } = await useAsyncData(() => {
 })
 
 useSeoMeta({
-    title: `ブログ | pika`,
+    title: `ブログ | minittu`,
     description: "投稿されている記事"
 })
 

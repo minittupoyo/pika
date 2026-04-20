@@ -78,6 +78,16 @@ export default defineNuxtConfig({
             shortenUrl: true,
             thumbnailPosition: "right",
           }
+        },
+        highlight: {
+          theme: {
+            default: 'catppuccin-frappe',
+            light: 'catppuccin-latte',
+            dark: 'catppuccin-macchiato'
+          },
+          langs: [
+            "shell","json","jsonc","yaml","yml","astro","js","ts","python","vue"
+          ]
         }
       }
     }

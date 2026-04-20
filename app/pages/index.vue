@@ -26,8 +26,8 @@ const links = ref<ButtonProps[]>([
 defineOgImage("BlogOg.satori", { title: "pika", description: "Nuxtの勉強のために作ったブログ" })
 
 useSeoMeta({
-    title: "pika",
-    description: "Nuxtの勉強のために作ったブログ"
+    title: "mnittu",
+    description: "超個人用備忘録"
 })
 </script>
 

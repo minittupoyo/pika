@@ -18,7 +18,7 @@ const breadcrumb = ref<BreadcrumbItem[]>([
 ])
 
 useSeoMeta({
-    title: "About | pika",
+    title: "About | minittu",
     description: "このサイトについて"
 })
 
