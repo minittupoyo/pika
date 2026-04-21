@@ -9,7 +9,8 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@nuxt/eslint',
     '@nuxtjs/color-mode',
-    'nuxt-og-image'
+    'nuxt-og-image',
+    "@nuxt/image"
   ],
   css: ["./app/assets/css/main.css"],
   compatibilityDate: '2025-07-15',
