@@ -34,7 +34,7 @@ export default defineNuxtConfig({
       crawlLinks: true,
       routes: [
         '/',
-        '/blog'
+        '/blog/'
       ]
     }
   },
@@ -56,37 +56,20 @@ export default defineNuxtConfig({
         subsets: ["latin", "japanese"]
       },
       {
-        name: "Noto Sans JP OG",
-        src: "/fonts/NotoSansJP-Bold.ttf",
-        weight: 700,
-        global: true,
-        preload: true
-      },
-      {
-        name: "Noto Sans JP OG",
-        src: "/fonts/NotoSansJP-Medium.ttf",
-        weight: 500,
-        global: true,
-        preload: true
-      },
-      {
-        name: "Noto Sans JP OG",
-        src: "/fonts/NotoSansJP-Regular.ttf",
+        name: "LINE Seed JP",
+        src: "/fonts/LINESeedJP_OTF_Rg.otf",
         weight: 400,
         global: true,
+        subsets: ["latin","japanese"],
         preload: true
       },
       {
         name: "LINE Seed JP",
-        src: "/fonts/LINESeedJP_OTF_Rg.woff2",
-        weight: 400,
-        global: true
-      },
-      {
-        name: "LINE Seed JP",
-        src: "/fonts/LINESeedJP_OTF_Bd.woff2",
+        src: "/fonts/LINESeedJP_OTF_Bd.otf",
         weight: 800,
-        global: true
+        global: true,
+        subsets: ["latin","japanese"],
+        preload: true
       },
     ]
   },

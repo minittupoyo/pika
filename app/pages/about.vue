@@ -22,7 +22,7 @@ useSeoMeta({
     description: "このサイトについて"
 })
 
-defineOgImage("BlogOg.satori", { title: "About", description: "このサイトについて" })
+defineOgImage("OoGee.satori", { title: "About", description: "このサイトについて" })
 </script>
 
 <template>
