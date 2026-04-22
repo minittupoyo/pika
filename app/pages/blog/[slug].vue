@@ -21,7 +21,7 @@ const { data: surround } = await useAsyncData(`${route.path}-surround`, () => {
     return query
 })
 
-defineOgImage("BlogOg.satori", { title: post.value?.title, description: post.value?.description })
+defineOgImage("BlogOg.takumi", { title: post.value?.title, description: post.value?.description })
 
 useSeoMeta({
     title: `${post.value?.title} | minittu`,

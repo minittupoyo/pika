@@ -29,6 +29,15 @@ export default defineNuxtConfig({
       ]
     }
   },
+  nitro: {
+    prerender: {
+      crawlLinks: true,
+      routes: [
+        '/',
+        '/blog'
+      ]
+    }
+  },
   fonts: {
     families: [
       {
@@ -66,7 +75,19 @@ export default defineNuxtConfig({
         weight: 400,
         global: true,
         preload: true
-      }
+      },
+      {
+        name: "LINE Seed JP",
+        src: "/fonts/LINESeedJP_OTF_Rg.woff2",
+        weight: 400,
+        global: true
+      },
+      {
+        name: "LINE Seed JP",
+        src: "/fonts/LINESeedJP_OTF_Bd.woff2",
+        weight: 800,
+        global: true
+      },
     ]
   },
   content: {
