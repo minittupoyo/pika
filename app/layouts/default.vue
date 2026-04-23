@@ -26,10 +26,6 @@ const items: NavigationMenuItem[] = [
         label: "Blog",
         to: "/blog",
     },
-    {
-        label: "Tags",
-        to: "/tags",
-    },
 ]
 </script>
 
