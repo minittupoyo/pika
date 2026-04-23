@@ -3,9 +3,10 @@ title: こんにちは、世界。
 description: ハローワールド!
 emoji: 👋
 date: 2026-04-19T18:53
+tags:
+  - zakki
 draft: false
 ---
-
 ## こんにちは
 
 このブログはNuxtで作ろうと思ったが最後、寝る間も惜しんで作っているものになります。
@@ -14,16 +15,16 @@ draft: false
 
 ### Nuxt v4
 
-https://nuxt.com
+[https://nuxt.com](https://nuxt.com)
 
 一番の目玉です。
 併せて`@nuxt/ui`も使用しています。
 
-https://ui.nuxt.com/
+[https://ui.nuxt.com/](https://ui.nuxt.com/)
 
 ### TailwindCSS
 
-https://tailwindcss.com
+[https://tailwindcss.com](https://tailwindcss.com)
 
 スタイリングに使用しています。
 シンプルに`@nuxt/ui`に必要だから。
@@ -32,7 +33,7 @@ https://tailwindcss.com
 
 ### tabler
 
-https://tabler.io/icons
+[https://tabler.io/icons](https://tabler.io/icons)
 
 ブランドロゴ系のアイコンも多いし見た目もいい。使わない理由はない。
 
