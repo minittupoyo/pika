@@ -14,12 +14,13 @@ const { data: tagsData } = await useAsyncData('tags-list', async () => {
         })
     })
 
-    // 必要なプロパティだけを抽出して返す
+    // 必要なプロパティだけを抽出して返す (記事数が0のものは除外)
     return definitions.map(tag => ({
         tagId: tag.tagId,
         name: tag.name,
         count: counts[tag.tagId] || 0
-    })).sort((a, b) => b.count - a.count)
+    })).filter(tag => tag.count > 0)
+       .sort((a, b) => b.count - a.count)
 })
 
 const breadcrumb: BreadcrumbItem[] = [
