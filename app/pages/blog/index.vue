@@ -43,6 +43,9 @@ const breadcrumb = ref<BreadcrumbItem[]>([
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <BlogCard v-for="post in posts" :key="post.path" :post="post" />
                 </div>
+                <div class="flex items-center justify-center">
+                    <UButton to="/tags" icon="i-tabler-tag" label="タグから探す" size="xl" />
+                </div>
             </UPageBody>
         </UPage>
     </UContainer>
