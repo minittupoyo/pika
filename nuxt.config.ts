@@ -9,7 +9,6 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@nuxt/eslint',
     '@nuxtjs/color-mode',
-    'nuxt-og-image',
     "@nuxt/image"
   ],
   css: ["./app/assets/css/main.css"],
@@ -80,10 +79,5 @@ export default defineNuxtConfig({
         }
       }
     }
-  },
-  ogImage: {
-    zeroRuntime: true,
-    buildCache: false,
-    fontSubsets: ["latin", "japanese", "japanese-ext"]
   }
 })
