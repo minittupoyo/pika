@@ -4,7 +4,6 @@ import tailwindcss from "@tailwindcss/vite"
 export default defineNuxtConfig({
   modules: [
     '@nuxt/ui',
-    '@nuxt/fonts',
     'nuxt-icons',
     '@nuxt/content',
     '@nuxt/eslint',
@@ -36,25 +35,6 @@ export default defineNuxtConfig({
         '/blog/'
       ]
     }
-  },
-  fonts: {
-    families: [
-      {
-        name: "Geist",
-        provider: "fontsource",
-        global: true,
-        preload: true,
-        weights: [400, 500, 700]
-      },
-      {
-        name: "Noto Sans JP",
-        provider: "fontsource",
-        global: true,
-        preload: true,
-        weight: "100 900",
-        subsets: ["latin", "japanese"]
-      },
-    ]
   },
   content: {
     build: {

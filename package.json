@@ -10,9 +10,11 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@fontsource-variable/geist": "^5.2.8",
+    "@fontsource-variable/geist-mono": "^5.2.7",
+    "@fontsource-variable/noto-sans-jp": "^5.2.10",
     "@nuxt/content": "3.13.0",
     "@nuxt/eslint": "1.15.2",
-    "@nuxt/fonts": "0.14.0",
     "@nuxt/image": "2.0.0",
     "@nuxt/ui": "4.6.1",
     "@nuxtjs/color-mode": "^4.0.0",
