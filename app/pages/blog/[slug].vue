@@ -79,6 +79,9 @@ const breadcrumb = ref<BreadcrumbItem[]>([
             </UPageHeader>
             <UPageBody>
                 <ContentRenderer v-if="post" :value="post" />
+                <USeparator />
+                <p class="mb-4! font-bold text-sm">この記事を書いた人</p>
+                <Profile />
                 <USeparator v-if="surround?.filter(Boolean).length" />
                 <UContentSurround :surround="surround as any" />
             </UPageBody>
