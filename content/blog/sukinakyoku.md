@@ -46,38 +46,38 @@ MVも最高だぜ。
 
 ### Overglaze / *Luna
 
-https://open.spotify.com/intl-ja/track/4VT66a0XLRR2Rch5FgM9eQ?si=ab7e4c9efd354d62
+[https://open.spotify.com/intl-ja/track/4VT66a0XLRR2Rch5FgM9eQ?si=ab7e4c9efd354d62](https://open.spotify.com/intl-ja/track/4VT66a0XLRR2Rch5FgM9eQ?si=ab7e4c9efd354d62)
 
 共感の塊。俺のことを歌ってるようだ。
 
 ### てんせーしたい / *Luna feat. ねんね
 
-https://open.spotify.com/intl-ja/track/7y6Ukj2Ql96t1C4J7uDeuu?si=3531fdd87f3641f3
+[https://open.spotify.com/intl-ja/track/7y6Ukj2Ql96t1C4J7uDeuu?si=3531fdd87f3641f3](https://open.spotify.com/intl-ja/track/7y6Ukj2Ql96t1C4J7uDeuu?si=3531fdd87f3641f3)
 
 可愛い曲。ねんねさんの声もよくあっていて。素晴らしい。
 
 ### 七つ風 / ナナツカゼ
 
-https://open.spotify.com/intl-ja/track/5hCfsFvZMuzkUcSRTvFM8h?si=fcadfd5440034f0b
+[https://open.spotify.com/intl-ja/track/5hCfsFvZMuzkUcSRTvFM8h?si=fcadfd5440034f0b](https://open.spotify.com/intl-ja/track/5hCfsFvZMuzkUcSRTvFM8h?si=fcadfd5440034f0b)
 
 タイトル回収みたいでエモい！ストーリーもいいです。ぜひ。
 
 ### あのね / ナナツカゼ
 
-https://youtu.be/M-IayQIR0XA
+<iframe width="560" height="315" src="https://www.youtube.com/embed/M-IayQIR0XA?si=HgbORIU66lgD5Ga9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 こっちはYouTubeのリンクを。MVがとっても可愛い。あのねジャンプ！
 
 ### 雪は何色 / Kotoha
 
-https://open.spotify.com/intl-ja/track/4aISoWI3spTzdWKGgR5a84?si=80bd3584929244c1
+[https://open.spotify.com/intl-ja/track/4aISoWI3spTzdWKGgR5a84?si=80bd3584929244c1](https://open.spotify.com/intl-ja/track/4aISoWI3spTzdWKGgR5a84?si=80bd3584929244c1)
 
 ましろ色シンフォニーというエロゲの曲らしいです。やったことはない。~~やりたいですね~~
 とても名曲。素晴らしい。
 
 ### 恋のいうとおり / 日曜日のメゾンデ
 
-https://open.spotify.com/intl-ja/track/7mYUtjVfKXhCUwXZ0GroHx?si=a692f7b6c21e4c80
+[https://open.spotify.com/intl-ja/track/7mYUtjVfKXhCUwXZ0GroHx?si=a692f7b6c21e4c80](https://open.spotify.com/intl-ja/track/7mYUtjVfKXhCUwXZ0GroHx?si=a692f7b6c21e4c80)
 
 漫画原作の曲。耳心地の良さで好き。
 
