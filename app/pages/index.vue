@@ -23,11 +23,10 @@ const links = ref<ButtonProps[]>([
     },
 ])
 
-defineOgImage("OoGee.satori", { title: "pika", description: "Nuxtの勉強のために作ったブログ" })
-
 useSeoMeta({
-    title: "mnittu",
-    description: "超個人用備忘録"
+    title: "minittu",
+    description: "超個人用備忘録",
+    ogImage: `https://og.minittu.net/og?t=minittu&d=超個人用備忘録`
 })
 </script>
 

@@ -21,11 +21,10 @@ const { data: surround } = await useAsyncData(`${route.path}-surround`, () => {
     return query
 })
 
-defineOgImage("OoGee.satori", { title: post.value?.title, description: post.value?.description })
-
 useSeoMeta({
     title: `${post.value?.title} | minittu`,
-    description: post.value?.description
+    description: post.value?.description,
+    ogImage: `https://og.minittu.net/og?t=${post.value?.title}&d=${post.value?.description}`
 })
 
 const breadcrumb = ref<BreadcrumbItem[]>([

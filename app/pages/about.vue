@@ -19,10 +19,9 @@ const breadcrumb = ref<BreadcrumbItem[]>([
 
 useSeoMeta({
     title: "About | minittu",
-    description: "このサイトについて"
+    description: "このサイトについて",
+    ogImage: `https://og.minittu.net/og?t=About&d=このサイトについて`
 })
-
-defineOgImage("OoGee.satori", { title: "About", description: "このサイトについて" })
 </script>
 
 <template>

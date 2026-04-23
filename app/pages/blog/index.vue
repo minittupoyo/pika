@@ -10,7 +10,8 @@ const { data: posts } = await useAsyncData(() => {
 
 useSeoMeta({
     title: `ブログ | minittu`,
-    description: "投稿されている記事"
+    description: "投稿されている記事",
+    ogImage: `https://og.minittu.net/og?t=ブログ&d=投稿されている記事`
 })
 
 const breadcrumb = ref<BreadcrumbItem[]>([
