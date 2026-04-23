@@ -5,15 +5,10 @@ const route = useRoute()
 const tagId = route.params.tag as string
 
 const { data: tagInfo } = await useAsyncData(`tag-info-${tagId}`, async () => {
-    // タグの定義をコレクションから取得
-    const tags = await queryCollection("tags").all()
-    const found = tags.find(t => t.tagId === tagId)
+    const found = await queryCollection("tags").where("tagId", "=", tagId).first()
     
     if (!found) return null
-
-    // そのタグに紐づく記事を取得
-    const blogPosts = await queryCollection("blog").all()
-    const filteredPosts = blogPosts.filter(post => post.tags?.includes(tagId))
+    const filteredPosts = await queryCollection("blog").where("tags", "LIKE", `%${tagId}%`).all()
     
     return {
         ...found,
