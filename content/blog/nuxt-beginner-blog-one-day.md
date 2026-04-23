@@ -17,11 +17,11 @@ draft: false
 
 ## 結論:ドキュメントを読みまくる
 
-https://nuxt.com/docs/4.x/getting-started/introduction
+[https://nuxt.com/docs/4.x/getting-started/introduction](https://nuxt.com/docs/4.x/getting-started/introduction)
 
-https://content.nuxt.com/docs/getting-started
+[https://content.nuxt.com/docs/getting-started](https://content.nuxt.com/docs/getting-started)
 
-https://ui.nuxt.com/docs/getting-started
+[https://ui.nuxt.com/docs/getting-started](https://ui.nuxt.com/docs/getting-started)
 
 ドキュメントを読みまくります。とにかく。
 使用したスタックのドキュメントを読み漁りなんとか作る。そんな感じです。
@@ -208,6 +208,8 @@ const breadcrumb = ref<BreadcrumbItem[]>([
 全部自分でコードを書いて実装しています。
 
 証明のしようがないですけどね。
+
+追記(2026年4月23日)：タグ関係のページにAntigravityを使用しました
 
 ## おわり
 
