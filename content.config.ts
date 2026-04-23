@@ -15,6 +15,14 @@ export default defineContentConfig({
                 draft: z.boolean().default(false)
             })
         }),
+        tags: defineCollection({
+            type: "data",
+            source: "tags/*.json",
+            schema: z.object({
+                tagId: z.string(),
+                name: z.string()
+            })
+        }),
         page: defineCollection({
             type: "page",
             source: "page/**/*.md",

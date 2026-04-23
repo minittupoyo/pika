@@ -3,7 +3,7 @@ title: Astroにリンクカードを追加する
 description: remark-link-card-plusを使います。
 date: 2026-04-19T09:20
 emoji: 🔗
-tags: ["Astro"]
+tags: ["astro"]
 draft: false
 ---
 ## リンクカード

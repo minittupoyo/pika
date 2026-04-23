@@ -3,7 +3,7 @@ title: Astroでアイコンを扱う！
 description: Astroでアイコンを使う方法です。
 date: 2026-04-18T23:46
 emoji: 🖌️
-tags: ["Astro"]
+tags: ["astro"]
 draft: false
 ---
 ## Astroでアイコン

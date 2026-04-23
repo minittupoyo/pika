@@ -9,7 +9,7 @@ content:
     path: content/blog
     filename:
       template: "{primary}.md"
-      field: true
+      field: create
     delimiters: "---"
     fields:
       - name: title
@@ -31,8 +31,12 @@ content:
           format: yyyy-MM-dd'T'HH:mm
       - name: tags
         label: タグ
-        type: string
-        list: true
+        type: reference
+        options:
+          collection: tags
+          multiple: true
+          value: "{tagId}"
+          label: "{name}"
       - name: draft
         label: 下書き
         type: boolean
@@ -49,4 +53,19 @@ content:
         label: デプロイ
         scope: entry
         workflow: pages-deploy.yml
-        
+  - name: tags
+    label: タグ
+    type: collection
+    path: content/tags
+    format: json
+    filename:
+      template: "{tagId}.json"
+    fields:
+      - name: tagId
+        label: ID
+        type: string
+        required: true
+      - name: name
+        label: 名前
+        type: string
+        required: true

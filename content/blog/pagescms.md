@@ -4,7 +4,7 @@ description: PagesCMSを布教する記事
 emoji: 📝
 date: 2026-04-20T08:30
 tags:
-  - ブログ開発
+  - development
 draft: false
 ---
 ## コンテンツ管理

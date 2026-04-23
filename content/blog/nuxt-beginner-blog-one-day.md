@@ -4,8 +4,8 @@ description: このブログを作った時のログ(じゃない)
 emoji: 👶
 date: 2026-04-22T04:38
 tags:
-  - Nuxt
-  - 開発
+  - nuxt
+  - development
 draft: false
 ---
 ## ガチNuxt初学者

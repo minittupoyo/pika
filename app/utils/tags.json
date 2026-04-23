@@ -1,0 +1,18 @@
+[
+  {
+    "id": "nuxt",
+    "name": "Nuxt"
+  },
+  {
+    "id": "vue",
+    "name": "Vue"
+  },
+  {
+    "id": "typescript",
+    "name": "TypeScript"
+  },
+  {
+    "id": "development",
+    "name": "開発"
+  }
+]
