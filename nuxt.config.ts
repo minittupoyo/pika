@@ -55,22 +55,6 @@ export default defineNuxtConfig({
         weight: "100 900",
         subsets: ["latin", "japanese"]
       },
-      {
-        name: "LINE Seed JP",
-        src: "/fonts/LINESeedJP_OTF_Rg.otf",
-        weight: 400,
-        global: true,
-        subsets: ["latin","japanese"],
-        preload: true
-      },
-      {
-        name: "LINE Seed JP",
-        src: "/fonts/LINESeedJP_OTF_Bd.otf",
-        weight: 800,
-        global: true,
-        subsets: ["latin","japanese"],
-        preload: true
-      },
     ]
   },
   content: {
@@ -91,7 +75,7 @@ export default defineNuxtConfig({
             dark: 'catppuccin-macchiato'
           },
           langs: [
-            "shell","json","jsonc","yaml","yml","astro","js","ts","python","vue"
+            "shell", "json", "jsonc", "yaml", "yml", "astro", "js", "ts", "python", "vue"
           ]
         }
       }
@@ -100,6 +84,6 @@ export default defineNuxtConfig({
   ogImage: {
     zeroRuntime: true,
     buildCache: false,
-    fontSubsets: ["latin","japanese","japanese-ext"]
+    fontSubsets: ["latin", "japanese", "japanese-ext"]
   }
 })

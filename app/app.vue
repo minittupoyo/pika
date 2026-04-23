@@ -1,6 +1,6 @@
 <script setup lang="ts">
 useSeoMeta({
-  title: "mnittu",
+  title: "minittu",
   description: "超個人用備忘録"
 })
 
